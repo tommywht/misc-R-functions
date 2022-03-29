@@ -1,3 +1,4 @@
+# display result in "mean (lci, uci)"
 mean_95ci <- function(mean, lci, uci, dig){
   out <- paste0(formatC(mean, digits = dig, format = "f", drop0trailing = F), 
                 " (", formatC(lci, digits = dig, format = "f", drop0trailing = F), 
@@ -7,6 +8,7 @@ mean_95ci <- function(mean, lci, uci, dig){
   return(out)
 }
 
+# display result  in percentages
 pct <- function(x){
   out <- formatC(x * 100, digits = 1, format = "f")
   return(out)
