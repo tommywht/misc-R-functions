@@ -1,5 +1,5 @@
 Package: table1wrangling
-Title: Data Wrangling for Table 1
+Title: Data wrangling for table 1
 Version: 0.0.0.9000
 Authors@R: 
     person("Tommy", "Wong", , "tommyhtwong@gmail.com", role = c("aut", "cre"),
