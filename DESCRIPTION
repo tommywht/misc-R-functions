@@ -1,0 +1,12 @@
+Package: table1wrangling
+Title: Data Wrangling for Table 1
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tommy", "Wong", , "tommyhtwong@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4822-4604"))
+Description: For nicely presenting data in table 1. Experimental package.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
